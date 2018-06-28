@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation Drawer -->
+    <dimen name="navHeaderPadding">16dp</dimen>
+    <dimen name="navDrawerWidth">300dp</dimen>
+
+    <dimen name="cardViewMargin">10dp</dimen>
+    <dimen name="cardElevation">4dp</dimen>
+    <dimen name="padding16dp">16dp</dimen>
+    <dimen name="padding10dp">10dp</dimen>
+    <dimen name="padding6dp">6dp</dimen>
+    <dimen name="margin6dp">6dp</dimen>
+    <dimen name="margin10dp">10dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="width_0dp">0dp</dimen>
+
+    <!-- Title of Location -->
+    <dimen name="heightImageLocation">150dp</dimen>
+    <dimen name="titleHeight">40dp</dimen>
+    <dimen name="titleTextSize">15sp</dimen>
+    <dimen name="drawablePadding">8dp</dimen>
+    <dimen name="contactTextSize">10sp</dimen>
+    <dimen name="textTitle">22sp</dimen>
+
+    <!-- AboutNashville View -->
+    <!--<dimen name="expandedTitleMarginEnd">64dp</dimen>-->
+    <!--<dimen name="expandedTitleMarginStart">48dp</dimen>-->
+    <dimen name="margin_map">8dp</dimen>
+    <dimen name="marginMta">50dp</dimen>
+    <dimen name="height_nav">350dp</dimen>
+    <dimen name="textSizeMta">20sp</dimen>
+    <dimen name="textAboutInfo">18sp</dimen>
+    <dimen name="paddingInfo">20dp</dimen>
+    <dimen name="textSizeCityInfo">15sp</dimen>
+    <dimen name="paddingCityInfo">20dp</dimen>
+</resources>
