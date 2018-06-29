@@ -3,7 +3,7 @@ package com.example.android.tourguideapp;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class Maps extends AppCompatActivity {
+public class CityMap extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

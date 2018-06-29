@@ -3,8 +3,6 @@ package com.example.android.tourguideapp;
 
 class Location {
 
-    private static final int NO_IMAGE_PROVIDED = -1;
-
     /**
      * Title of the location
      */
@@ -35,6 +33,11 @@ class Location {
      * Photo of the location
      */
     private int mImageResourceId;
+
+    /**
+     * Constant value that represents no image was provided for this word
+     */
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
      * Create a new Location object.
@@ -98,7 +101,9 @@ class Location {
         return mImageResourceId;
     }
 
-    // if perhaps there is no image
+    /**
+     * if perhaps there is no image
+     */
     public boolean hasPhoto() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }

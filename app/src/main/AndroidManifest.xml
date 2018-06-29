@@ -35,7 +35,7 @@
                 android:value="com.example.android.tourguideapp.MainActivity" />
         </activity>
         <activity
-            android:name=".Maps"
+            android:name=".CityMap"
             android:label="City Map"
             android:parentActivityName=".MainActivity">
 

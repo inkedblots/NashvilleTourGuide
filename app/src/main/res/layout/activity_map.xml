@@ -8,8 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_margin="@dimen/margin_map"
-        android:contentDescription="@string/nashMap"
-        android:src="@drawable/citymap" />
+        android:layout_margin="10dp"
+        android:contentDescription="@string/cityMap"
+        android:src="@drawable/citymap"/>
 
 </LinearLayout>

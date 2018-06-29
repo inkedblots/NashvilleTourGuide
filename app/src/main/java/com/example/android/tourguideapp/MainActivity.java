@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         // Create an adapter that knows which fragment should be shown on each page
         CategoryAdapter adapter = new CategoryAdapter(getSupportFragmentManager(), this);
 
-        // Set the adapter onto viewPager
+        // Set the adapter on viewPager
         viewPager.setAdapter(adapter);
 
         TabLayout tabLayout = findViewById(R.id.slidingTabs);
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 // Intent to `Nashville` City Map Activity
                 if (position == 2) {
-                    Intent intent = new Intent(mMain, Maps.class);
+                    Intent intent = new Intent(mMain, CityMap.class);
                     startActivity(intent);
 
                 }

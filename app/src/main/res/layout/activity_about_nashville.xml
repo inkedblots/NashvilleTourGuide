@@ -14,7 +14,7 @@
             android:padding="@dimen/paddingInfo"
             android:text="@string/aboutNashville"
             android:textColor="@color/colorPrimary"
-            android:textSize="@dimen/textAboutInfo" />
+            android:textSize="@dimen/textAboutInfo"/>
 
         <TextView
             android:layout_width="wrap_content"
