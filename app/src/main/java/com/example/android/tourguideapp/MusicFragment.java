@@ -47,7 +47,7 @@ public class MusicFragment extends Fragment {
                 getString(R.string.musicDescription4), R.drawable.walkoffame));
 
         // This list item layout contains a layout of location information, that includes
-        // title, address, opening hours, description and photo of the location which the adapter will
+        // title, address, business hours, description and photo of the location which the adapter will
         // set to display.
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         // Find the {@Link ListView} object in the view hierarchy of the {@Link Activity}.
@@ -59,13 +59,13 @@ public class MusicFragment extends Fragment {
         // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
         listView.setAdapter(adapter);
 
-        // Set a click listener to select the music when the card is clicked on.
+        // Set a click listener to select the location when the card is clicked on.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 // Send intent to new {@Link LocationDetailActivity} with details for the current selected
-                // music.
+                // location.
                 Intent intent = new Intent(getActivity(), LocationDetailActivity.class);
                 startActivity(intent);
 

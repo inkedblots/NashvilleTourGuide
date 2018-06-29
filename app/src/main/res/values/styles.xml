@@ -7,7 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Image of a Location -->
+    <!-- Image of Location -->
     <style name="imageLocation">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/heightImageLocation</item>

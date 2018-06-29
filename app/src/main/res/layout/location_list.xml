@@ -16,10 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <!-- For main category images-->
             <ImageView
                 android:id="@+id/imageOfLocation"
                 style="@style/imageLocation"
-                android:layout_height="170dp"
+                android:layout_height="175dp"
                 android:layout_marginTop="20dp"
                 android:contentDescription="@string/imageOfLocation"
                 android:src="@drawable/nashvilleskyline1280" />

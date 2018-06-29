@@ -15,7 +15,7 @@
     <dimen name="width_0dp">0dp</dimen>
 
     <!-- Title of Location -->
-    <dimen name="heightImageLocation">150dp</dimen>
+    <dimen name="heightImageLocation">250dp</dimen>
     <dimen name="titleHeight">40dp</dimen>
     <dimen name="titleTextSize">15sp</dimen>
     <dimen name="drawablePadding">8dp</dimen>
@@ -23,10 +23,10 @@
     <dimen name="textTitle">22sp</dimen>
 
     <!-- AboutNashville View -->
-    <!--<dimen name="expandedTitleMarginEnd">64dp</dimen>-->
-    <!--<dimen name="expandedTitleMarginStart">48dp</dimen>-->
+    <dimen name="expandedTitleMarginEnd">64dp</dimen>
+    <dimen name="expandedTitleMarginStart">48dp</dimen>
     <dimen name="margin_map">8dp</dimen>
-    <dimen name="marginMta">50dp</dimen>
+
     <dimen name="height_nav">350dp</dimen>
     <dimen name="textSizeMta">20sp</dimen>
     <dimen name="textAboutInfo">18sp</dimen>

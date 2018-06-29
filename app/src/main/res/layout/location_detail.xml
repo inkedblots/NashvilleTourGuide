@@ -18,13 +18,13 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleMarginEnd="64dp"
-            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="@dimen/expandedTitleMarginEnd"
+            app:expandedTitleMarginStart="@dimen/expandedTitleMarginStart"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:contentDescription="@string/museumDescription"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerInside"
@@ -33,7 +33,7 @@
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
-
+        <!-- Scrollable View-->
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -117,7 +117,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_margin="@dimen/margin6dp"
                 android:orientation="horizontal"
                 android:padding="@dimen/padding10dp">
@@ -140,14 +140,6 @@
                     android:text="@string/webUrl"
                     android:textColor="@color/colorPrimary" />
 
-                <TextView
-                    android:layout_width="@dimen/width_0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:drawablePadding="@dimen/drawablePadding"
-                    android:gravity="center"
-                    android:text="@string/shareText"
-                    android:textColor="@color/colorPrimary" />
             </LinearLayout>
 
         </LinearLayout>
