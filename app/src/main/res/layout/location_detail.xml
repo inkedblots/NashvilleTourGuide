@@ -2,7 +2,7 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
     <android.support.design.widget.AppBarLayout
@@ -36,13 +36,13 @@
     <!-- Scrollable View-->
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:clipToPadding="false"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="@dimen/margin10dp"
             android:orientation="vertical">
 
@@ -86,20 +86,23 @@
                 android:id="@+id/addressTextView"
                 style="@style/contactsTextStyle.detail"
                 android:padding="@dimen/padding10dp"
-                android:text="@string/museumAddress" />
+                android:text="@string/museumAddress"
+                android:textSize="12sp"/>
 
             <TextView
                 android:id="@+id/businessHoursTextView"
                 style="@style/contactsTextStyle.detail"
                 android:padding="@dimen/padding10dp"
                 android:text="@string/museumHours"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                android:textSize="12sp"/>
 
             <TextView
                 android:id="@+id/priceTextView"
                 style="@style/contactsTextStyle.detail"
                 android:padding="@dimen/padding10dp"
-                android:text="@string/museumPrice" />
+                android:text="@string/museumPrice"
+                android:textSize="12sp"/>
 
             <View
                 android:layout_width="match_parent"
@@ -107,34 +110,34 @@
                 android:layout_marginBottom="@dimen/margin6dp"
                 android:background="@color/colorPrimary" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="@dimen/margin6dp"
-                android:orientation="horizontal"
-                android:padding="@dimen/padding10dp">
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="@dimen/margin6dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="@dimen/padding10dp">-->
 
-                <!-- Research to Activate -->
-                <TextView
-                    android:layout_width="@dimen/width_0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:drawablePadding="@dimen/drawablePadding"
-                    android:gravity="center"
-                    android:text="@string/map"
-                    android:textColor="@color/colorPrimary" />
+            <!--&lt;!&ndash; Research to Activate &ndash;&gt;-->
+            <!--<TextView-->
+            <!--android:layout_width="@dimen/width_0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawablePadding="@dimen/drawablePadding"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/map"-->
+            <!--android:textColor="@color/colorPrimary" />-->
 
-                <!-- Research to Activate -->
-                <TextView
-                    android:layout_width="@dimen/width_0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:drawablePadding="@dimen/drawablePadding"
-                    android:gravity="center"
-                    android:text="@string/webUrl"
-                    android:textColor="@color/colorPrimary" />
+            <!--&lt;!&ndash; Research to Activate &ndash;&gt;-->
+            <!--<TextView-->
+            <!--android:layout_width="@dimen/width_0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawablePadding="@dimen/drawablePadding"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/webUrl"-->
+            <!--android:textColor="@color/colorPrimary" />-->
 
-            </LinearLayout>
+            <!--</LinearLayout>-->
 
         </LinearLayout>
 

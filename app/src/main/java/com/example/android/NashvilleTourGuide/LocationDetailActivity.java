@@ -1,4 +1,4 @@
-package com.example.android.tourguideapp;
+package com.example.android.NashvilleTourGuide;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

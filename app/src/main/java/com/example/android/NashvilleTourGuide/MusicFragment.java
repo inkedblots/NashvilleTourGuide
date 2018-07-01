@@ -1,4 +1,4 @@
-package com.example.android.tourguideapp;
+package com.example.android.NashvilleTourGuide;
 
 
 import android.content.Intent;
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class OutdoorFragment extends Fragment {
+public class MusicFragment extends Fragment {
 
 
     @Override
@@ -24,30 +24,30 @@ public class OutdoorFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.places_list, container, false);
 
-        //Create a list of outdoor
+        //Create a list of music
 
         final ArrayList<Location> locations = new ArrayList<>();
 
         //locations.add("one);
 
-        locations.add(new Location(getString(R.string.outdoorTitle), getString(R.string.outdoorAddress),
-                getString(R.string.outdoorHours), getString(R.string.outdoorPrice),
-                getString(R.string.outdoorDescription), R.drawable.cheekwood));
+        locations.add(new Location(getString(R.string.musicTitle), getString(R.string.musicAddress),
+                getString(R.string.musicHours), getString(R.string.musicPrice),
+                getString(R.string.musicDescription), R.drawable.tootsies));
 
-        locations.add(new Location(getString(R.string.outdoorTitle2), getString(R.string.outdoorAddress2),
-                getString(R.string.outdoorHours2), getString(R.string.outdoorPrice2),
-                getString(R.string.outdoorDescription2), R.drawable.zoo));
+        locations.add(new Location(getString(R.string.musicTitle2), getString(R.string.musicAddress2),
+                getString(R.string.musicHours2), getString(R.string.musicPrice2),
+                getString(R.string.musicDescription2), R.drawable.ryman));
 
-        locations.add(new Location(getString(R.string.outdoorTitle3), getString(R.string.outdoorAddress3),
-                getString(R.string.outdoorHours3), getString(R.string.outdoorPrice3),
-                getString(R.string.outdoorDescription3), R.drawable.jackson));
+        locations.add(new Location(getString(R.string.musicTitle3), getString(R.string.musicAddress3),
+                getString(R.string.musicHours3), getString(R.string.musicPrice3),
+                getString(R.string.musicDescription3), R.drawable.wildhors));
 
-        locations.add(new Location(getString(R.string.outdoorTitle4), getString(R.string.outdoorAddress4),
-                getString(R.string.outdoorHours4), getString(R.string.outdoorPrice4),
-                getString(R.string.outdoorDescription4), R.drawable.bicentennial));
+        locations.add(new Location(getString(R.string.musicTitle4), getString(R.string.musicAddress4),
+                getString(R.string.musicHours4), getString(R.string.musicPrice4),
+                getString(R.string.musicDescription4), R.drawable.walkoffame));
 
         // This list item layout contains a layout of location information, that includes
-        // title, address, opening hours, description and photo of the location which the adapter will
+        // title, address, business hours, description and photo of the location which the adapter will
         // set to display.
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         // Find the {@Link ListView} object in the view hierarchy of the {@Link Activity}.
@@ -59,20 +59,21 @@ public class OutdoorFragment extends Fragment {
         // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
         listView.setAdapter(adapter);
 
-        // Set a click listener to select the outdoor location when the card is clicked on.
+        // Set a click listener to select the location when the card is clicked on.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 // Send intent to new {@Link LocationDetailActivity} with details for the current selected
-                // outdoor location.
-                Intent intent;
-                intent = new Intent(getActivity(), LocationDetailActivity.class);
-
+                // location.
+                Intent intent = new Intent(getActivity(), LocationDetailActivity.class);
                 startActivity(intent);
+
             }
         });
 
         return rootView;
     }
+
+
 }

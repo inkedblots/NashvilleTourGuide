@@ -14,7 +14,7 @@
     <dimen name="divider_height">1dp</dimen>
     <dimen name="width_0dp">0dp</dimen>
 
-    <!-- Title of Location -->
+    <!-- Name of Location | main screen settings-->
     <dimen name="heightImageLocation">250dp</dimen>
     <dimen name="titleHeight">40dp</dimen>
     <dimen name="titleTextSize">15sp</dimen>

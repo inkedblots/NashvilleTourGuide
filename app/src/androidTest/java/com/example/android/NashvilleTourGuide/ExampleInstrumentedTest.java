@@ -1,4 +1,4 @@
-package com.example.android.tourguideapp;
+package com.example.android.NashvilleTourGuide;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
