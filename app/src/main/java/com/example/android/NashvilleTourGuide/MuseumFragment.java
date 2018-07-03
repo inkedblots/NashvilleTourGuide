@@ -44,12 +44,12 @@ public class MuseumFragment extends Fragment {
 
         museums.add(new Location(getString(R.string.museumTitle4), getString(R.string.museumAddress4),
                 getString(R.string.museumHours4), getString(R.string.museumPrice4),
-                getString(R.string.museumDescription4), R.drawable.nashvilleskyline1280));
+                getString(R.string.museumDescription4), R.drawable.tnrailway));
 
 
         // This list item layout contains a layout of location information, that includes
-        // title, address, opening hours, description and photo of the location which the adapter will
-        // set to display.
+        // name, address, business hours, description and image of the location the adapter will
+        // display.
         LocationAdapter adapter = new LocationAdapter(getActivity(), museums);
         // Find the {@Link ListView} object in the view hierarchy of the {@Link Activity}.
         // A {@Link ListView} with the view ID list is declared in the places_list.xml.

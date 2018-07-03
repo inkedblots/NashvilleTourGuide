@@ -16,7 +16,7 @@ class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Create a new {@link CategoryAdapter} object.
      *
-     * @param fm is the fragment manager that will keep each fragment's state in the adapter
+     * @param fm is the fragment manager that keeps each fragments state in the adapter
      *           across swipes.
      */
     CategoryAdapter(FragmentManager fm, Context nContext) {
@@ -50,7 +50,7 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return 5;
     }
 
-    // ADD PAGE TITLE
+    // Page location title
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {

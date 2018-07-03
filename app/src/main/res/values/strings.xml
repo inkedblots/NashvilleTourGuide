@@ -10,8 +10,6 @@
     <string name="mta"><![CDATA[<span style="color:#FFFFFF">Metro Transit</span>]]></string>
 
 
-
-
     <!-- Drawer Navigation -->
 
     <string name="drawer_open">Open navigation drawer</string>
@@ -24,8 +22,8 @@
     <string name="hoursText">Hours</string>
     <string name="priceText">Price</string>
     <string name="contactText">Location &amp; Contact</string>
-    <string name="map">Map</string>
-    <string name="webUrl">Web</string>
+    <!--<string name="map">Map</string>-->
+    <!--<string name="webUrl">Web</string>-->
 
     <string name="imageOfLocation">Image</string>
     <string name="cityMap">Map of Nashville</string>
@@ -34,6 +32,8 @@
     <string name="category_brewery">Brewery</string>
     <string name="category_food">Food</string>
     <string name="category_outdoor">Outdoors</string>
+
+    <string name="retroImage">retro skyline image</string>
 
 
     <!-- Museums -->
@@ -285,7 +285,9 @@
         \nBy 1800, the city had 345 residents, including 136 enslaved African Americans and 14 free
         African American residents. In 1806, Nashville was incorporated as a city and became the county
         seat of Davidson County, Tennessee. In 1843, the city was named the permanent capital of
-        the state of Tennessee.
-        \nhttps://en.wikipedia.org/wiki/Nashville,_Tennessee</string>
+        the state of Tennessee.\n</string>
+
+     <string name="link"><![CDATA[
+    <a href="https://en.wikipedia.org/wiki/Nashville,_Tennessee">Nashville\'s Wiki page]]></string>
 
 </resources>
