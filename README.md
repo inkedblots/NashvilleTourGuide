@@ -8,6 +8,8 @@ TourGuideApp - Barcelona
 <https://github.com/daibeat/TourGuideApp/tree/master>
 
 Some inner workings resemble the Miwok app.
-Links to resources listed within code.
 
-ADD MORE INFO HERE
+TODO:
+Links to resources listed within code. List in readme too?
+Remove commented out code
+format all files, no extra spaces

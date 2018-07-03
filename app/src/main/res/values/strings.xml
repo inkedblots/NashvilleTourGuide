@@ -270,7 +270,7 @@
     <!-- Nashville Metro website information-->
     <string name="textMta">Click for info</string>
 
-    <!-- General Info About Nashville-->
+    <!-- General Info About Nashville (from wiki page)-->
     <string name="infoGeography">Geography.
                                 \nNashville is the capital of Tennessee.
                                 \nFounded	1779
@@ -287,6 +287,7 @@
         seat of Davidson County, Tennessee. In 1843, the city was named the permanent capital of
         the state of Tennessee.\n</string>
 
+    <!-- FIX TEXT SIZE AND STYLE -->
      <string name="link"><![CDATA[
     <a href="https://en.wikipedia.org/wiki/Nashville,_Tennessee">Nashville\'s Wiki page]]></string>
 
