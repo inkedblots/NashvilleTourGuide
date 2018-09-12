@@ -11,12 +11,12 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-
 public class MusicFragment extends Fragment {
 
     String title;
@@ -67,13 +67,12 @@ public class MusicFragment extends Fragment {
 
                 String musicTitle = locations.get(position).getTitle();
                 intent.putExtra("title", musicTitle);
-                intent.putExtra("address", locationAddress);
-                intent.putExtra("hours", locationHours);
-                intent.putExtra("price", locationPrice);
-                intent.putExtra("description", locationDescription);
-                intent.putInt("image", locationResource);
+                intent.putExtra("address", address);
+                intent.putExtra("hours", businessHours);
+                intent.putExtra("price", entrancePrice);
+                intent.putExtra("description", description);
+                intent.putExtra("image", imageResourceId);
                 startActivity(intent);
-
             }
         });
 

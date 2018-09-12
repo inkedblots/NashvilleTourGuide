@@ -4,14 +4,11 @@
     <string name="blankFragment">Blank fragment</string>
 
     <!-- Navigation Drawer List Items -->
-
     <string name="about"><![CDATA[<span style="color:#FFFFFF">About</span>]]></string>
     <string name="nashMap"><![CDATA[<span style="color:#FFFFFF">City Map</span>]]></string>
     <string name="mta"><![CDATA[<span style="color:#FFFFFF">Metro Transit</span>]]></string>
 
-
     <!-- Drawer Navigation -->
-
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
 
@@ -22,63 +19,17 @@
     <string name="hoursText">Hours</string>
     <string name="priceText">Price</string>
     <string name="contactText">Location &amp; Contact</string>
-    <!--<string name="map">Map</string>-->
-    <!--<string name="webUrl">Web</string>-->
+    <string name="nashvilleSkyline">Nashville Skyline</string>
 
     <string name="imageOfLocation">Image</string>
     <string name="cityMap">Map of Nashville</string>
     <string name="category_music">Music</string>
     <string name="category_museum">Museums</string>
-    <string name="category_brewery">Brewery</string>
+    <string name="category_brewery">Breweries</string>
     <string name="category_food">Food</string>
     <string name="category_outdoor">Outdoors</string>
 
     <string name="retroImage">retro skyline image</string>
-
-
-    <!-- Museums -->
-
-    <!-- Johnny Cash Location -->
-    <string name="museumTitle">Johnny Cash Museum</string>
-    <string name="museumAddress">119 &#8211; 6th Ave So.\nNashville, TN 37201</string>
-    <string name="museumHours">Daily: 6am-9pm</string>
-    <string name="museumPrice">General $19.95
-                                \nYouth $15.95 (ages 6&#8211;15)
-                                \n5 &amp; under free with adult admission</string>
-    <string name="museumDescription">Visit the cafe inside for the finest award winning coffee,
-                                breakfast and lunch sandwiches, pastries and more.</string>
-
-    <!-- Frist Center -->
-    <string name="museumTitle2">Frist Art Museum</string>
-    <string name="museumAddress2">919 Broadway\nNashville, TN, 37203</string>
-    <string name="museumHours2">Mon-Wed: 10am-5:30pm
-                                \nThurs &amp; Fri: 10am-9pm
-                                \nSat: 10am-5:30pm
-                                \nSun: 1pm-5:30pm</string>
-    <string name="museumPrice2">18 &amp; younger: Free\n
-                                Adults: $12.00\n
-                                Seniors (65+): $9.00</string>
-    <string name="museumDescription2">The Frist Art Museum opened in April 2001, and since that time
-        has hosted a spectacular array of art from the region and from around the world.</string>
-
-    <!-- The Parthenon -->
-    <string name="museumTitle3">The Parthenon</string>
-    <string name="museumAddress3">2500 West End Avenue\nNashville, TN 37203</string>
-    <string name="museumHours3">Tue-Sat: 9am-4:30pm\nSun: 12:30pm-4:30pm\n(Closed Monday)</string>
-    <string name="museumPrice3">Adults: $6.00
-                                \nKids (4&#8211;7): $4.00
-                                \nSeniors (over 62): $4.00</string>
-    <string name="museumDescription3">The Parthenon stands proudly as the centerpiece of Centennial
-        Park, Nashville\'s premier urban park. Originally built for Tennessee\'s 1897 Centennial
-        Exposition.</string>
-
-    <!-- Tennessee Central Railway Location -->
-    <string name="museumTitle4">Tennessee Central Railway Museum</string>
-    <string name="museumAddress4">220 Willow Street,\nNashville, TN 37210\n(615) 244&#8211;9001</string>
-    <string name="museumHours4">Call for hours</string>
-    <string name="museumPrice4">Call for pricing</string>
-    <string name="museumDescription4">The Tennessee Central Railway Museum is dedicated to the
-        preservation of Tennessee\'s railroad heritage.  http://www.tcry.org/</string>
 
 
     <!-- Music -->
@@ -86,73 +37,105 @@
     <!-- Tootsies Orchid Lounge -->
     <string name="musicTitle">Tootsie\'s Orchid Lounge</string>
     <string name="musicAddress">422 Broadway\nNashville, TN 37203</string>
-    <string name="musicHours">Daily: 11am&#8211;2:30am</string>
-    <string name="musicPrice">n/a</string>
+    <string name="musicHours">Daily:\n11am&#8211;2:30am</string>
+    <string name="musicPrice">Price:\nN/A</string>
     <string name="musicDescription">Also known as Tootsie\'s World Famous Orchid Lounge, where
         performers have taken the stage since the early 1960s in hopes of being discovered.</string>
 
     <!-- Ryman Auditorium -->
     <string name="musicTitle2">Ryman Auditorium</string>
-    <string name="musicAddress2">116 Fifth Avenue North\n
-                                Nashville, TN 37219\n
-                                (615) 889&#8211;3060</string>
+    <string name="musicAddress2">116 Fifth Ave No\nNashville, TN 37219\n(615) 889&#8211;3060</string>
     <string name="musicHours2">Museum Tours\n9am&#8211;4:30pm
-                               \nCafe Lula\n9 am&#8211;5pm</string>
-    <string name="musicPrice2">Varies by show</string>
+                               \nCafe Lula\n9am&#8211;5pm</string>
+    <string name="musicPrice2">Price:\nCall</string>
     <string name="musicDescription2">This place is hallowed ground. This is the exact spot where
-        bluegrass was born—where Johnny Cash met June Carter, where souls were saved and a slice of
-        history was nearly lost. It was right here that country music found an audience beyond its
+        bluegrass was born — where Johnny Cash met June Carter, where souls were saved&#8230; and a slice of
+        history was nearly lost.\nIt was right here that country music found an audience beyond its
         own back porch, and countless careers took off as deals were signed on napkins and paper
-        scraps backstage. https://ryman.com  http://www.cafelula.net/ </string>
+        scraps backstage.</string>
 
     <!-- Wildhorse Saloon -->
     <string name="musicTitle3">Wildhorse Saloon</string>
-    <string name="musicAddress3">120 Second Ave North\nNashville, TN 37201</string>
-    <string name="musicHours3">Daily: 11am&#8211;1am</string>
-    <string name="musicPrice3">Free</string>
+    <string name="musicAddress3">120 Second Ave No\nNashville, TN 37201</string>
+    <string name="musicHours3">Daily:\n11am&#8211;1am</string>
+    <string name="musicPrice3">Price:\nFree</string>
     <string name="musicDescription3">HERE there’s a strict no-holds-barred-policy, where you have
-        permission to forget the world outside and get lost — IN the music, ON  the dance floor, or
-        WITH the taste of our award-winning BBQ. https://wildhorsesaloon.com/</string>
+        permission to forget the world outside and get lost — IN the music&#8230;\n&#8230;ON  the dance floor, or
+        WITH the taste of our award-winning BBQ.</string>
 
     <!-- Music City Walk of Fame -->
     <string name="musicTitle4">Music City Walk of Fame</string>
-    <string name="musicAddress4">Located on Demonbreun Street\nbetween 4th &amp; 5th Avenues South</string>
-    <string name="musicHours4">n/a</string>
-    <string name="musicPrice4">Free</string>
-    <string name="musicDescription4">The stars on the Walk of Fame, spanning genres and generations,
-        honor those that make, create, record, perform, and present music to and for the world.
-        http://www.visitmusiccity.com/walkoffame/</string>
+    <string name="musicAddress4">Demonbreun Street\nbetween 4th &amp; 5th Avenues South</string>
+    <string name="musicHours4">Hours:\nAll day</string>
+    <string name="musicPrice4">Price:\nFree</string>
+    <string name="musicDescription4">The stars on the Walk of Fame, spanning genres &amp; generations,
+        honor those that make, create, record, perform, and present music to &amp; for the world.</string>
 
 
-    <!-- Outdoor Activities -->
+    <!-- Museums -->
+
+    <!-- Johnny Cash Location -->
+    <string name="museumTitle">Johnny Cash Museum</string>
+    <string name="museumAddress">119 &#8211; 6th Ave So\nNashville, TN 37201</string>
+    <string name="museumHours">Daily:\n6am-9pm</string>
+    <string name="museumPrice">General $19.95\nYouth $15.95 (ages 6&#8211;15)\n
+                                5 &amp; under free</string>
+    <string name="museumDescription">Visit the cafe inside for the finest award winning coffee,
+        breakfast and lunch sandwiches, pastries and more.</string>
+
+    <!-- Frist Center -->
+    <string name="museumTitle2">Frist Art Museum</string>
+    <string name="museumAddress2">919 Broadway\nNashville, TN, 37203</string>
+    <string name="museumHours2">Mon-Wed: 10am-5:30pm\nThurs &amp; Fri: 10am-9pm\nSat: 10am-5:30pm
+                                \nSun: 1pm-5:30pm</string>
+    <string name="museumPrice2">18 &amp; below: Free\nAdults $12\nSeniors (65+) $9</string>
+    <string name="museumDescription2">The Frist Art Museum opened in April 2001, and since that time
+        has hosted a spectacular array of art from the region and from around the world.</string>
+
+    <!-- The Parthenon -->
+    <string name="museumTitle3">The Parthenon</string>
+    <string name="museumAddress3">2500 West End Ave\nNashville, TN 37203</string>
+    <string name="museumHours3">Tue-Sat: 9am-4:30pm\nSun: 12:30pm-4:30pm\n(Closed Monday)</string>
+    <string name="museumPrice3">Adults: $6\nKids (4&#8211;7): $4\nSeniors (62+): $4</string>
+    <string name="museumDescription3">The Parthenon stands proudly as the centerpiece of Centennial
+        Park, Nashville\'s premier urban park.\n\nOriginally built for Tennessee\'s 1897 Centennial
+        Exposition.</string>
+
+    <!-- Tennessee Central Railway -->
+    <string name="museumTitle4">Tennessee Central Railway Museum</string>
+    <string name="museumAddress4">220 Willow St\nNashville, TN 37210\n(615) 244&#8211;9001</string>
+    <string name="museumHours4">Hours:\nCall</string>
+    <string name="museumPrice4">Price:\nCall</string>
+    <string name="museumDescription4">The Tennessee Central Railway Museum is dedicated to the
+        preservation of Tennessee\'s railroad heritage.</string>
+
+
+    <!-- Outdoors -->
 
     <!-- Cheekwood -->
     <string name="outdoorTitle">Cheekwood Estate &amp; Gardens</string>
-    <string name="outdoorAddress">1200 Forrest Park Drive\nNashville, TN 37205</string>
+    <string name="outdoorAddress">1200 Forrest Park Dr\nNashville, TN 37205</string>
     <string name="outdoorHours">Tue&#8211;Sun: 9am&#8211;5pm</string>
-    <string name="outdoorPrice">Adults $20
-                                \nKids (3&#8211;17) $13
-                                \nSeniors (65+) $18</string>
+    <string name="outdoorPrice">Adults $20\nKids (3&#8211;17) $13\nSeniors (65+) $18</string>
     <string name="outdoorDescription">Cheekwood offers many diverse experiences, but a singularly
         serene environment that will leave you restored and rejuvenated.</string>
 
     <!-- Nashville Zoo -->
     <string name="outdoorTitle2">Nashville Zoo</string>
     <string name="outdoorAddress2">3777 Nolensville Pike\nNashville, TN 37211</string>
-    <string name="outdoorHours2">Oct 13 &#8211; Mar 9: 9am&#8211;4pm\n
-                                 Mar 10 &#8211; Oct 11: 9am&#8211;6pm</string>
-    <string name="outdoorPrice2">Adults/Teens $17
-                                \nKids (2-12) $12
-                                \nSeniors (65+) $15</string>
+    <string name="outdoorHours2">Oct 13 &#8211; Mar 9:\n9am&#8211;4pm
+                                 \nMar 10 &#8211; Oct 11:\n9am&#8211;6pm</string>
+    <string name="outdoorPrice2">Adults/Teens $17\nKids (2&#8211;12) $12\nSeniors (65+) $15</string>
     <string name="outdoorDescription2">Nashville Zoo\'s experienced staff is actively involved in
         research, habitat protection, breeding programs and education initiatives around the globe
         as well as in our own backyard.</string>
 
     <!-- General Jackson Showboat -->
     <string name="outdoorTitle3">General Jackson Showboat</string>
-    <string name="outdoorAddress3">2812 Opryland Drive\nNashville, TN</string>
-    <string name="outdoorHours3">Varies by tour</string>
-    <string name="outdoorPrice3">Varies by date &amp; show</string>
+    <string name="outdoorAddress3">2812 Opryland Dr\nNashville, TN\n(615) 458&#8211;3900\n
+        866&#8211;567&#8211;JACK</string>
+    <string name="outdoorHours3">Hours:\nCall</string>
+    <string name="outdoorPrice3">Price:\nVaries by date &amp; tour</string>
     <string name="outdoorDescription3">General Jackson was named after another riverboat of the
         same name that was built in 1817; that boat was in turn named for Andrew Jackson. The
         modern boat was originally an attraction at the Opryland USA theme park. The park closed
@@ -162,8 +145,8 @@
     <!-- Bicentennial Mall -->
     <string name="outdoorTitle4">Bicentennial Capitol Mall State Park</string>
     <string name="outdoorAddress4">600 James Robertson Pkwy\nNashville, TN 37243</string>
-    <string name="outdoorHours4">Daily: 8am&#8211;Dusk</string>
-    <string name="outdoorPrice4">FREE</string>
+    <string name="outdoorHours4">Daily:\n8am&#8211;Dusk</string>
+    <string name="outdoorPrice4">Price:\nFree</string>
     <string name="outdoorDescription4">Located in the shadow of the Capitol in downtown Nashville,
         visitors can experience many facets of Tennessee’s history including a 200-foot granite map
         of the state, a World War II Memorial, a 95-Bell Carillon, a Pathway of History and the
@@ -174,121 +157,98 @@
 
     <!-- Pancake Pantry -->
     <string name="foodTitle">Pancake Pantry</string>
-    <string name="foodAddress">1796 21st Avenue S, Nashville\nTN 37212</string>
-    <string name="foodHours">Mon&#8211;Fri: 6am&#8211;3pm
-                            \nSat &amp; Sun: 6am&#8211;4pm</string>
-    <string name="foodPrice">n/a</string>
+    <string name="foodAddress">1796 21st Ave So\nNashville,TN 37212</string>
+    <string name="foodHours">Mon&#8211;Fri: 6am&#8211;3pm\nSat &amp; Sun: 6am&#8211;4pm</string>
+    <string name="foodPrice">Price:\nN/A</string>
     <string name="foodDescription">Since 1961, we\'ve been serving scratch-made pancakes and much
-        more to visitors and locals alike in the Hillsboro Village neighborhood.
-        http://www.thepancakepantry.com/</string>
+        more to visitors and locals alike in the Hillsboro Village neighborhood.</string>
 
     <!-- Loveless Cafe -->
     <string name="foodTitle2">Loveless Cafe</string>
     <string name="foodAddress2">8400 Hwy 100\nNashville, TN 37221</string>
-    <string name="foodHours2">Daily: 7am&#8211;9pm</string>
-    <string name="foodPrice2">n/a</string>
+    <string name="foodHours2">Daily:\n7am&#8211;9pm</string>
+    <string name="foodPrice2">Price:\nN/A</string>
     <string name="foodDescription2">For more than 65 years, the Loveless Cafe has been offering
-        families and friends a place where they can enjoy a home-cooked, Southern meal and reconnect
-        with each other around the table. https://www.lovelesscafe.com</string>
+        families and friends a place where they can enjoy a home-cooked, Southern meal\nand reconnect
+        with each other around the table.</string>
 
     <!-- Fido -->
     <string name="foodTitle3">Fido</string>
-    <string name="foodAddress3">1812 21st Ave. S.\nNashville, TN 37212</string>
-    <string name="foodHours3">Daily:7am&#8211;11pm
-                            \nKitchen: Mon 7am&#8211;9pm
-                            \nTue&#8211;Sun: 7am&#8211;10pm</string>
-    <string name="foodPrice3">n/a</string>
+    <string name="foodAddress3">1812 21st Ave So\nNashville, TN 37212</string>
+    <string name="foodHours3">Daily: 7am&#8211;11pm\nKitchen: Mon 7am&#8211;9pm\nTue&#8211;Sun:
+        7am&#8211;10pm</string>
+    <string name="foodPrice3">Price:\nN/A</string>
     <string name="foodDescription3">Fido blurs the line between upscale coffeehouse and casual
-        restaurant with an emphasis on organic and local foods served in an inviting atmosphere.
-        http://www.fidonashville.com/</string>
+        restaurant with an emphasis on organic and local foods served in an inviting atmosphere.</string>
 
     <!-- Sambuca -->
     <string name="foodTitle4">Sambuca</string>
-    <string name="foodAddress4">601 12th Avenue South
-                                \nNashville, TN 37203
-                                \n(615) 248&#8211;2888</string>
-    <string name="foodHours4">Mon-Sun: Dinner: 5pm-10pm
-                              \nTue-Sun: Lunch: 11am-3pm</string>
-    <string name="foodPrice4">n/a</string>
+    <string name="foodAddress4">601 12th Ave So\nNashville, TN 37203\n(615) 248&#8211;2888</string>
+    <string name="foodHours4">Dinner:\nMon-Sun: 5pm-10pm\nLunch:\nTue-Sun: 11am-3pm</string>
+    <string name="foodPrice4">Price:\nN/A</string>
     <string name="foodDescription4">Sambuca, Nashville’s only rockin’ restaurant, features a savory
-        new American menu and a variety of nightly live music. http://www.nashville.sambucarestaurant.com/</string>
+        new American menu and a variety of nightly live music.</string>
 
-
-    <!-- Brewery-->
+    <!-- Breweries-->
 
     <!-- Yazoo -->
     <string name="breweryTitle">Yazoo Brewing Co</string>
-    <string name="breweryAddress">910 Division Street
-                                \nNashville, TN 37207
-                                \n(615) 891&#8211;4649</string>
-    <string name="breweryHours">Wed/Thurs: 5pm &amp; 7pm\n
-                                Fri: 5pm, 6pm, &amp; 7pm\n
-                                Sat: every 30min from 12:00-5:00, plus 6:00 &amp; 7:00pm</string>
-    <string name="breweryPrice">Call for pricing</string>
-    <string name="breweryDescription">Yazoo Brewing really started with a homebrewing kit bought
-        from the back pages of Rolling Stone in 1993. In October 2003, we opened the doors and began
+    <string name="breweryAddress">910 Division St\nNashville, TN 37207\n(615) 891&#8211;4649</string>
+    <string name="breweryHours">Wed/Thurs: 5pm &amp; 7pm\nFri: 5pm, 6pm, &amp; 7pm
+                                \nSat: every 30min\nfrom 12:00-5:00,\nplus 6:00 &amp; 7:00pm</string>
+    <string name="breweryPrice">Price:\nCall</string>
+    <string name="breweryDescription">Yazoo Brewing started with a homebrewing kit bought
+        from the back pages of Rolling Stone in 1993.\nIn October 2003, we opened the doors and began
         selling kegs of Yazoo Pale Ale, Dos Perros, Spring Wheat, and Onward Stout to local bars and
-        restaurants, quickly gaining an enthusiastic local following. http://www.yazoobrew.com/</string>
+        restaurants, quickly gaining an enthusiastic local following.</string>
 
     <!-- TN Brew Works -->
     <string name="breweryTitle2">Tennessee Brew Works</string>
-    <string name="breweryAddress2">809 Ewing Avenue
-                                \nNashville, TN, 37203
-                                \n(615) 436&#8211;0050</string>
-    <string name="breweryHours2">Mon-Sat: 11am&#8211;10pm
-                                \nSun: 11am&#8211;8pm</string>
-    <string name="breweryPrice2">Call for pricing</string>
+    <string name="breweryAddress2">809 Ewing Ave\nNashville, TN, 37203\n(615) 436&#8211;0050</string>
+    <string name="breweryHours2">Mon-Sat: 11am&#8211;10pm\nSun: 11am&#8211;8pm</string>
+    <string name="breweryPrice2">Price:\nCall</string>
     <string name="breweryDescription2">Founded with the discovery that great beer can be brewed at
         home, what began as a kitchen hobby amongst friends ultimately transformed into something
-        much greater. http://www.tnbrew.com/</string>
+        much greater.</string>
 
     <!-- Blackstone Brewery -->
     <string name="breweryTitle3">Blackstone Brewing Co</string>
-    <string name="breweryAddress3">2312 Clifton Ave
-                                \nNashville TN
-                                \n(615) 320&#8211;9002</string>
-    <string name="breweryHours3">Mon-Fri 4pm&#8211;8pm
-                                \nSat 12pm&#8211;8pm
-                                \nSun 2pm&#8211;6pm</string>
-    <string name="breweryPrice3">Call for pricing</string>
+    <string name="breweryAddress3">2312 Clifton Ave\nNashville TN\n(615) 320&#8211;9002</string>
+    <string name="breweryHours3">Mon-Fri 4pm&#8211;8pm\nSat 12pm&#8211;8pm\nSun 2pm&#8211;6pm</string>
+    <string name="breweryPrice3">Price:\nCall</string>
     <string name="breweryDescription3">We have been brewing Craft beer in Nashville since 1994.
-        We are Nashville\'s oldest and most award winning brewery. https://blackstonebeer.com/</string>
+        We are Nashville\'s oldest and most award winning brewery.</string>
 
     <!-- Czanns -->
     <string name="breweryTitle4">Czann\'s Brewing Co LLC</string>
-    <string name="breweryAddress4">505 Lea Ave
-                                \nNashville, TN
-                                \n(615) 748&#8211;1399</string>
-    <string name="breweryHours4">Wed-Fri: 4pm-9pm
-                                \nSat: 12pm&#8211;9pm
-                                \nSun: 1pm&#8211;7pm</string>
-    <string name="breweryPrice4">Call for pricing</string>
+    <string name="breweryAddress4">505 Lea Ave\nNashville, TN\n(615) 748&#8211;1399</string>
+    <string name="breweryHours4">Wed-Fri: 4pm-9pm\nSat: 12pm&#8211;9pm\nSun: 1pm&#8211;7pm</string>
+    <string name="breweryPrice4">Price:\nCall</string>
     <string name="breweryDescription4">Has a catalog of several ale recipes that are available year
         round and seasonally.</string>
 
 
-    <!-- Nashville Metro website information-->
+    <!-- Nashville Metro -->
     <string name="textMta">Click for info</string>
 
-    <!-- General Info About Nashville (from wiki page)-->
+    <!-- General Info About Nashville -->
     <string name="infoGeography">Geography.
                                 \nNashville is the capital of Tennessee.
                                 \nFounded	1779
                                 \nIncorporated	1806</string>
 
-    <!--  Taken from https://en.wikipedia.org/wiki/Nashville,_Tennessee -->
+    <!--  Taken from wiki page-->
     <string name="aboutNashville">The town of Nashville was founded by James Robertson, John Donelson,
         and a party of Overmountain Men in 1779, near the original Cumberland settlement of Fort Nashborough.
         It was named for Francis Nash, the American Revolutionary War hero. Nashville quickly grew
         because of its strategic location, accessibility as a port on the Cumberland River, a
         tributary of the Ohio River; and its later status as a major railroad center.
+
         \nBy 1800, the city had 345 residents, including 136 enslaved African Americans and 14 free
         African American residents. In 1806, Nashville was incorporated as a city and became the county
         seat of Davidson County, Tennessee. In 1843, the city was named the permanent capital of
-        the state of Tennessee.\n</string>
-
-    <!-- FIX TEXT SIZE AND STYLE -->
-     <string name="link"><![CDATA[
+        the state of Tennessee.\nMore on: </string>
+    <string name="link"><![CDATA[
     <a href="https://en.wikipedia.org/wiki/Nashville,_Tennessee">Nashville\'s Wiki page]]></string>
 
 </resources>

@@ -7,13 +7,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <!-- Image from <a href="https://www.Vecteezy.com/">Graphics by: Vecteezy</a> -->
+        <!-- Image from <a href="https://www.Vecteezy.com/">Graphics by: Vecteezy -->
         <ImageView
             android:id="@+id/retroskyline"
             android:layout_width="match_parent"
             android:layout_height="270dp"
             android:contentDescription="@string/retroImage"
-            android:scaleType="centerInside"
+            android:scaleType="centerCrop"
             android:src="@drawable/retronashvilleskyline" />
 
         <TextView
@@ -21,25 +21,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/retroskyline"
-            android:padding="@dimen/paddingInfo"
+            android:paddingLeft="@dimen/paddingInfo"
+            android:paddingRight="@dimen/paddingInfo"
             android:text="@string/aboutNashville"
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/textAboutInfo"/>
 
-        <!-- ADD PADDING TO DIMENS -->
         <TextView
             android:id="@+id/link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/interest"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:paddingLeft="@dimen/paddingInfo"
+            android:paddingRight="@dimen/paddingInfo"
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/textAboutInfo"
             android:text="@string/link"/>
 
         <TextView
-            android:id="@+id/geography"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/link"
@@ -47,7 +46,6 @@
             android:text="@string/infoGeography"
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/textSizeCityInfo" />
-
 
     </RelativeLayout>
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <!-- logo from https://commons.wikimedia.org/wiki/File:Nashville_MTA_logo.svg -->
     <ImageButton
         android:id="@+id/mta"
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:src="@drawable/mtalogo"
         tools:ignore="ContentDescription" />
 
-    <!-- logo from https://commons.wikimedia.org/wiki/File:Nashville_MTA_logo.svg -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
